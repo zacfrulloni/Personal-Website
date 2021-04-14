@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Zac Frulloni - Personal Website</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="https://zacfrulloni.github.io/blog.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<div class="header">
+  <h1 href="#default" class="h1">Zac Frulloni</h1>
+  <div class="header-right">
+    <a class="home" href="home.html">HOME</a>
+    <a href="projects.html">PROJECTS</a>
+    <a href="blog.html">BLOG</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="horizontal"></div> <br></br>
+  <h2>My journey into the cloud resume challenge</h2><br></br>
+       <img src="https://lh3.googleusercontent.com/70AbkGqOTP67WIYEZsHlYEoWUMfPrN9TJlXG_2vUhqLxIk67rZQ3lMNZchyQakEtOP6kb39oYMrY4SUJgj5iACjHaL1ywbPC1Ut5Zzpem7PcaPYSLUKXxQ9da9HUu8Ss4Jds21hGm6AupKI_gjgzgwPN-AfjZIdGOGZLNB2cVqtZdRttXsBhQXcjNAbCbt14xJnNkQTwYBYw4uJRnVpnLOveII1YfIIDj8wF15NtdSRgtPWVAIRFgAMWTtGOe5Cn7kvtorSeYeXPUK2M5958rjId1z1NyWbxT2TGKaNasiXqghEle9DFbjXo7psjcgVAmY4EKtKC8dbiYvSmvXFJDEtTHvsIaPmU4HzdGRrXt4Bix424eCfgHdDo-Ba5q_FlyllAm7rAv28EGHilxjaqsnzK57g9NJQ8od-iOg4kLuwmAjsRAUUFMeOOWveN9lcEQ6hii9G7XZnB2mWyia9xlYPLxgS-_YmOE4RPe-p6lyN4RJnV9lqQO_v1r8Rew1HqZSRfHcSLI6rNrqfK90vEiAs_tMSRPuHMfw83hhhmPyBpTiZq--h4x0gu5SjEcoMweCnC4SF0bFi9pF2QdyikaR3Rb0wYvrfYale6dC0xvfg02ylp0lwedLoqJ1uRtxoGzLyHngNuDvReN9YIdk9A-JzOSDv6KqOQiupzu8QSReJ924NZEyjTHeTvah-HUgDGZTCPr7I3jw1a9yFJVg1y2JHj=w1268-h950-no?authuser=0" alt="Avatar" class="img1">
+<h3 class="h5">Published on Dec 17, 2020</h3><br></br>
+     
+ 		<img src="https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1602197866304%2Fh9lf5jNNi.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dformat%26q%3D60" alt="blog " class="img"/><br></br>
+ 		<p>As my placement year is coming up, I aspire to enter the cloud computing industry. I got into the cloud back in January and after achieving my solutions architect associate and CPC certifications from AWS I decided to complete a project to demonstrate and improve my skills in AWS. I decided to take on the project in October as I was working on my C.V for next year’s placement. After many challenges and obstacles overcome, I can finally say I have finished the cloudresumechallenge, it is by far one of the most difficult projects I have completed.<br></br>
+      
+Tasks:<br></br>
+1.
+The first step of the challenge was to include the AWS Cloud Practitioner certification on your resume. I passed the AWS CPC exam back in June I then decided that I was going to study for the AWS SAA exam and passed this exam in September.<br></br>
+      2-3.
+
+This was my first-time using HTML and CSS. After watching some tutorials online and on YouTube I decided to build and test my project using codepen.io allowing me to code in both HTML and CSS providing live previews of my cv.
+
+I then deployed my code in a s3 bucket that is configured to host a static website. Very straightforward.
+5-6. I used HTTPS for my website URL by using CloudFront and purchased a domain name from godaddy.com. I then configured the DNS records.<br></br>
+7-12. This step required a visitor counter written in Python to count the number of visitors that visited my webpage. Thanks to some online tutorials and researching on stack overflow. After finally getting the visitor counter to work I used it in a lambda function to update a DynamoDB database with the number of visits to my webpage. I setup an API gateway to trigger my lambda function that would then update my DynamoDB database by +1. I wrote some code in my html file to call the gateway every time someone visited my webpage. I then tested my python code using unittest. Now my lambda function, API gateway and DynamoDB database were all configured and working in unison I deployed them in a SAM template. The SAM template then deploys all the services in a CloudFormation stack. Awesome! <br></br>13-15. Almost there!
+I then setup 2 GitHub repositories for my frontend and Backend code to update automatically whenever changes were made to my code. (CI/CD: Continuous integration and deployment). I setup github actions and found the marketplace very useful for using already made workflows. This was the most difficult step as I struggled to get my pytest to run after receiving an exit code 1 error. After numerous commits and attempts I decided get some advice on stack overflow and solved the problem in a matter of hours. With both actions passed that was me done! I finally finished the cloudresumechallenge!<br></br>
+Have a look at the <a href="https://zacsresume.com/" target="_blank" class="finalproject">final project!</a></p>
+      <a1 href="javascript:void();" class="readmore-btn">Read More</a1>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
+   <script>
+     $(".readmore-btn").on('click', function(){
+      $(this).parent().toggleClass("showContent");
+       
+       var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
+       $(this).text(replaceText);
+     });
+   </script>
+<br></br>
+  <div class="horizontal1"></div> 
+
+<div id="page-container">
+   <div id="content-wrap">
+<footer id="footer">
+<div class="row1" id="row1">
+  <div class="col-md-12">KEEP IN TOUCH<div>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <div class="icon-bar">
+  <a href="https://github.com/zacfrulloni" class="Github" target="_blank"><i class="fa fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/zacfrulloni/" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.youtube.com/channel/UC2FO35be6wVJEw3gWb8H69A" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+  <a href="https://www.instagram.com/zac_frulloni/" class="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+<div class="row" id="row">
+  <a class="col-md-3" href="home.html">HOME</a>
+  <div class="vertical"></div>
+  <div class="vertical1"></div>                 <div class="vertical2"></div>
+  <a class="col-md-3" href="projects.html">PROJECTS</a>
+  <a class="col-md-3" href="blog.html">BLOG</a>
+  <a class="col-md-3" href="contact.html">CONTACT</a>
+</div>
+</footer>
+<!-- partial -->
+  
+</body>
+</html>
