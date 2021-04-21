@@ -180,6 +180,7 @@ footer{
   bottom: 0;
   height: 2.5rem;  
   z-index: 15;
+	  width: 100%;
 }
 div{
   color: white;
