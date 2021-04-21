@@ -203,6 +203,7 @@ a:hover{
 }
 a{
   color: white;
+  	  text-decoration: none;
 }
 .finalproject {
   color: black;
