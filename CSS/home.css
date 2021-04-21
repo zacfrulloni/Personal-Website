@@ -220,11 +220,11 @@ text-align: center;
             top: px;
             background-color: #282828;
         }
-footer row a {
+ a[target="_blank"] {
   color: white;
   text-decoration: none;
 }
- a:hover {
+ a[target="_blank"]:hover {
   color: white;
   text-decoration: none;
 }
