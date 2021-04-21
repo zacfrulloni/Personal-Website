@@ -174,8 +174,7 @@ h3 {
   background-color: #191919;
   line-height:100px;
   font-size: 18px;
-	width: 100%;
-
+	margin: 0;
 }
 footer{
   position: relative;
@@ -221,11 +220,11 @@ text-align: center;
             top: px;
             background-color: #282828;
         }
- [class|="col-md-3"] {
+ a {
   color: white;
   text-decoration: none;
 }
- [class|="col-md-3"] {
+ a {
   color: white;
   text-decoration: none;
 }
