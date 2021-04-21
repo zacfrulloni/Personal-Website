@@ -223,7 +223,7 @@ text-align: center;
   color: white;
   text-decoration: none;
 }
- a {
+ a:hover {
   color: white;
   text-decoration: none;
 }
