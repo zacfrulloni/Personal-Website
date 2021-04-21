@@ -166,12 +166,14 @@ h3 {
 }
 .row1{
   background-color: #282828;
-  
+  font-size: 25px;
+    line-height:130px;
  
  }
 .row{
   background-color: #191919;
-
+  line-height:100px;
+  font-size: 18px;
 }
 footer{
   position: relative;
@@ -228,7 +230,6 @@ text-align: center;
 
 .icon-bar {
 	display: inline-block;
-	text-align: center;
 }
 .column {
   float: left;
