@@ -27,10 +27,11 @@ a1{
   margin-top: 15px;
    margin-left: 25%;
   margin-right:25%;
+	  text-decoration: none;
 }
 a1:hover{
   box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-  
+  	  text-decoration: none;
 }
 p{
   height: 90px;
