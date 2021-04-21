@@ -220,13 +220,15 @@ text-align: center;
             top: px;
             background-color: #282828;
         }
-a[href="home.html"] {
+a {
   color: white;
   text-decoration: none;
+	display: block;
 }
-a[href="home.html"]:hover {
+a:hover {
   color: white;
   text-decoration: none;
+  display: block;
 }
 
 
