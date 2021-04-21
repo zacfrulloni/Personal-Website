@@ -220,7 +220,7 @@ text-align: center;
             top: px;
             background-color: #282828;
         }
-home.html {
+a[href="home.html"] {
   color: white;
   text-decoration: none;
 }
