@@ -224,7 +224,7 @@ a[href="home.html"] {
   color: white;
   text-decoration: none;
 }
-home.html:hover {
+a[href="home.html"]:hover {
   color: white;
   text-decoration: none;
 }
