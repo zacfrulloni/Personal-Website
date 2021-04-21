@@ -220,11 +220,11 @@ text-align: center;
             top: px;
             background-color: #282828;
         }
-a {
+.col-md-3 {
   color: white;
   text-decoration: none;
 }
-a:hover {
+.col-md-3:hover {
   color: white;
   text-decoration: none;
 }
