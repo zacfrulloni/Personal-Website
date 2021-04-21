@@ -125,10 +125,11 @@ h2{
   }
   .header-right {
     float: none;
+  	  text-decoration: none;
   }
   .header-right a {
   font-size: 20px;
-}
+    	  text-decoration: none;
 }
 
 .col-md-12 {
