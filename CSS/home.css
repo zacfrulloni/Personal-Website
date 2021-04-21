@@ -223,15 +223,15 @@ text-align: center;
  a {
   color: white;
   text-decoration: none;
-	   text-align: center;
 }
  a:hover {
   color: white;
   text-decoration: none;
-	   text-align: center;
 }
 
-
+.icon-bar {
+	display: inline-block;
+}
 .column {
   float: left;
   width: 50%;
