@@ -223,12 +223,12 @@ text-align: center;
  a {
   color: white;
   text-decoration: none;
-	   align-content: center;
+	   text-align: center;
 }
  a:hover {
   color: white;
   text-decoration: none;
-	   align-content: center;
+	   text-align: center;
 }
 
 
