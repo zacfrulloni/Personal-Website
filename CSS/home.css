@@ -220,11 +220,11 @@ text-align: center;
             top: px;
             background-color: #282828;
         }
- a[target="_blank"] {
+ [class|="col-md-3"] {
   color: white;
   text-decoration: none;
 }
- a[target="_blank"]:hover {
+ [class|="col-md-3"] {
   color: white;
   text-decoration: none;
 }
