@@ -220,13 +220,15 @@ text-align: center;
             top: px;
             background-color: #282828;
         }
-row a {
+ a {
   color: white;
   text-decoration: none;
+	   align-content: center;
 }
-row a:hover {
+ a:hover {
   color: white;
   text-decoration: none;
+	   align-content: center;
 }
 
 
