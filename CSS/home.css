@@ -228,6 +228,7 @@ text-align: center;
 
 .icon-bar {
 	display: inline-block;
+	text-align: center;
 }
 .column {
   float: left;
