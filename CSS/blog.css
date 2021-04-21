@@ -80,6 +80,7 @@ h2{
   top: 0;
   bottom: 0;
   height: 120px;
+		  text-decoration: none;
 }
 
 /* Style the header links */
