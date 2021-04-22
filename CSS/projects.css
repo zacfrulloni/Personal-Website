@@ -33,6 +33,7 @@ body {
   line-height: 8px;
   margin-left:1px;
 	  color: white;
+	z-index: 11;
 }
 
 /* Change the background color on mouse-over */
