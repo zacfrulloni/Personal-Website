@@ -211,7 +211,7 @@ a{
 }
 .finalproject {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .finalproject:hover {
   color: black;
