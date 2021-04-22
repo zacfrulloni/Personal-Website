@@ -29,10 +29,10 @@ body {
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .h1 {
   font-size: 40px;
-  color: white;
   display: inline-block;
   line-height: 8px;
   margin-left:1px;
+	  color: white;
 }
 
 /* Change the background color on mouse-over */
@@ -64,7 +64,7 @@ td a:focus {
 h1 {
   text-align: center;
 line-height: 150px;
-  font-size: 135px;
+  font-size: 35px;
 }
 
 .bold-blue {
