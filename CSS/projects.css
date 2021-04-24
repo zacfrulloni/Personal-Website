@@ -55,6 +55,7 @@ body {
   margin-top: 100px;
 	width: 1024px;
 	padding: 2em;
+	overflow: auto;
 }
 td a:focus {
   color: black;
