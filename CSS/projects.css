@@ -96,8 +96,8 @@ table {
 }
 
 td {
- white-space: normal;
-    overflow: hidden;
+word-wrap: break-word;
+overflow: hidden;
     width: 10px;
     height: 25px;
     border: 1px solid black;
