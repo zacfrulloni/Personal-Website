@@ -99,8 +99,9 @@ td {
 word-wrap: break-word;
 overflow: hidden;
     width: 10px;
-    height: 25px;
+    height: 15px;
     border: 1px solid black;
+    display: block;
 }
 
 /*certifications*/
@@ -217,4 +218,5 @@ a:focus {
 }
 .scrollable{
     overlow-y: auto;
+	
   }
