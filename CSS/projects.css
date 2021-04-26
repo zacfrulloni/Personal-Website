@@ -96,7 +96,7 @@ table {
 }
 
 td {
-	 white-space: nowrap;
+  word-wrap: break-word;
 overflow: hidden;
     width: 10px;
     height: 25px;
