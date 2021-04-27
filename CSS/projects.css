@@ -73,10 +73,11 @@ line-height: 150px;
 
 table thead th {
     position: sticky;
+  position: sticky;
   top: 0;
   resize: horizontal;
   overflow: hidden;
-  max-width: 70px;
+  min-width: 70px;
     white-space: nowrap;
 box-shadow: 0 4px 2px -1px gray;
   text-align: center;
@@ -94,11 +95,11 @@ table {
 }
 
 td {
+  white-space: nowrap;
   overflow: hidden;
-   width: 50px;
+    width: 10px;
     height: 25px;
     border: 1px solid black;
-	display: inline-block;
 }
 
 /*certifications*/
@@ -224,5 +225,4 @@ a:focus {
 .header-right .contact {
   text-decoration: none;
 }
-
 
