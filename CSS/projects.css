@@ -95,7 +95,7 @@ table {
 }
 
 td {
-	 width: 10px;
+	 min-width: 10px;
   white-space: nowrap;   
   overflow: hidden;
     height: 25px;
