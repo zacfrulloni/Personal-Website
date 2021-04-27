@@ -90,7 +90,7 @@ box-shadow: 0 4px 2px -1px gray;
 }
 table {
   table-layout:fixed; 
-    width: 40px;
+    max-width: 10px;
   overflow: hidden;
 }
 
