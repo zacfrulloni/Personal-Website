@@ -99,7 +99,7 @@ td {
     width: 5px;
     height: 25px;
     border: 1px solid black;
-	display: block;
+	display: inline-block;
 }
 
 /*certifications*/
