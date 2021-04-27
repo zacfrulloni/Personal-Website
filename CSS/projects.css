@@ -76,7 +76,7 @@ table thead th {
   top: 0;
   resize: horizontal;
   overflow: hidden;
-  max-width: 50px;
+  max-width: 60px;
     white-space: nowrap;
 box-shadow: 0 4px 2px -1px gray;
   text-align: center;
