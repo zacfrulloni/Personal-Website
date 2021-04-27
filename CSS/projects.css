@@ -90,17 +90,15 @@ box-shadow: 0 4px 2px -1px gray;
 }
 table {
   table-layout:fixed; 
-    max-width: 10px;
+    width: 40px;
   overflow: hidden;
 }
 
 td {
   white-space: nowrap;
   overflow: hidden;
-    width: 10px;
     height: 25px;
     border: 1px solid black;
-	display: inline-block;
 }
 
 /*certifications*/
