@@ -1,0 +1,41 @@
+var AWS = require('aws-sdk');
+var ses = new AWS.SES({ region: "eu-west-2" });
+ 
+var SENDER = 'zfrull200@caledonian.ac.uk';
+
+var response = {
+ "isBase64Encoded": false,
+ "headers": { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': 'https://zacsito.com/contact.html'},
+ "statusCode": 200,
+ "body": "{\"result\": \"Success.\"}"
+ };
+
+exports.handler = function (event, context) {
+    console.log('Received event:', event);
+    sendEmail(event, function (err, data) {
+        context.done(err, null);
+    });
+};
+ 
+function sendEmail (event, done) {
+    var params = {
+        Destination: {
+            ToAddresses: 
+                ['zacfrull@hotmail.com']
+        },
+        Message: {
+            Body: {
+                Html: {
+                    Data: 'name: ' + event.name + '<br>email: ' + event.email + '<br>mess: ' + event.mess,
+                    Charset: 'UTF-8'
+                }
+            },
+            Subject: {
+                Data: 'MESSAGE FROM WEBSITE  ' + event.name,
+                Charset: 'UTF-8'
+            }
+        },
+        Source: SENDER
+    };
+    return ses.sendEmail(params).promise();
+};
